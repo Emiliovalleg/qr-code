@@ -14,15 +14,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='bg-blue-200 min-h-screen p-10' >
-        <div className=' mx-10 flex flex-col bg-white'>
- 
-        <Image className='p-2 w-md h-md ' src={qrcode} alt=''/>
-        <h1>Improve your front-end skills by building projects</h1>
-        <p>Scan the QR code to visit Frontend Mentor and 
-          take your coding skills to the next level
-        </p>
-        
+      <main className='bg-blue-100 min-h-screen p-10 ' >
+        <div className='rounded-xl  p-5 m-auto max-w-xs  max-h-xs flex flex-col bg-white'>
+           <Image className=' h-auto w-auto rounded-lg m-auto mb-4' src={qrcode} alt=''/>
+           <div className='text-center p-3'>
+              <h1 className=' font-bold text-xl mb-2 '>Improve your front-end skills by building projects</h1>
+              <p className='text-gray-400 text-sm'>Scan the QR code to visit Frontend Mentor and 
+                take your coding skills to the next level
+              </p>
+          </div>
         </div>
       </main>
     </>
